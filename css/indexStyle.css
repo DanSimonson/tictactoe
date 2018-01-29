@@ -60,6 +60,7 @@ table tr td:last-child {
     box-shadow: 5px 10px #888888;
     font-size: 16px;
     padding-left: 40px;
+    padding-right: 0;
     color: #fff;
 }
 button {
@@ -99,5 +100,8 @@ button {
       color: grey;
       text-shadow: 1px 1px 1px #000, 
       3px 3px 5px blue; 
+  }
+  #text-header {
+      padding-left: 40px !important;
   }
 
